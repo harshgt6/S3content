@@ -1,0 +1,12 @@
+Best Practices
+
+GetObject => Head + Body
+HeadObject => Head
+S3Select => filter the data at source e.g. json, csv, etc.
+
+Handler large objects:
+ 
+
+object >5GB ; Multipart upload api (recommended if size >=100MB)
+object max size is upto 5TB
+ 
